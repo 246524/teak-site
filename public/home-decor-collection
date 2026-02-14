@@ -1,0 +1,56 @@
+export default function ArtPanels() {
+  return (
+    <div className="min-h-screen px-6 py-20 bg-gray-50">
+      
+      <h1 className="text-4xl font-bold mb-6 text-center">
+        Acrylic Home Decor Collection
+      </h1>
+
+      <p className="text-gray-600 mb-12 text-center max-w-2xl mx-auto">
+        Premium handcrafted acrylic decorative panels and lighting artworks
+        designed to elevate modern interior spaces.
+      </p>
+
+      {/* Product Grid */}
+      <div className="grid md:grid-cols-3 gap-10">
+
+        {/* Item 1 */}
+        <div className="bg-white shadow-lg rounded-2xl p-5 hover:scale-105 transition duration-300">
+          <img src="/images/article-01.png" alt="Decor 1" className="rounded-lg" />
+          <h3 className="mt-4 font-semibold text-lg">Geometric Table Lamp</h3>
+        </div>
+
+        {/* Item 2 */}
+        <div className="bg-white shadow-lg rounded-2xl p-5 hover:scale-105 transition duration-300">
+          <img src="/images/article-02.png" alt="Decor 2" className="rounded-lg" />
+          <h3 className="mt-4 font-semibold text-lg">Arched LED Wall Panel</h3>
+        </div>
+
+        {/* Item 3 */}
+        <div className="bg-white shadow-lg rounded-2xl p-5 hover:scale-105 transition duration-300">
+          <img src="/images/article-03.png" alt="Decor 3" className="rounded-lg" />
+          <h3 className="mt-4 font-semibold text-lg">Luxury Illuminated Panel</h3>
+        </div>
+
+        {/* Item 4 */}
+        <div className="bg-white shadow-lg rounded-2xl p-5 hover:scale-105 transition duration-300">
+          <img src="/images/article-04.jpeg" alt="Decor 4" className="rounded-lg" />
+          <h3 className="mt-4 font-semibold text-lg">Modern Mosaic Art Lamp</h3>
+        </div>
+
+        {/* Item 5 */}
+        <div className="bg-white shadow-lg rounded-2xl p-5 hover:scale-105 transition duration-300">
+          <img src="/images/article-05.jpeg" alt="Decor 5" className="rounded-lg" />
+          <h3 className="mt-4 font-semibold text-lg">Premium Acrylic Glow Panel</h3>
+        </div>
+
+        {/* Item 6 */}
+        <div className="bg-white shadow-lg rounded-2xl p-5 hover:scale-105 transition duration-300">
+          <img src="/images/article-06.jpeg" alt="Decor 6" className="rounded-lg" />
+          <h3 className="mt-4 font-semibold text-lg">Designer Decorative Light Frame</h3>
+        </div>
+
+      </div>
+    </div>
+  );
+}
